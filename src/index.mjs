@@ -15,7 +15,15 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res) => {
-  res.render('index', { title: 'Página de inicio' });
+  res.render('index');
+});
+
+app.get('/editar', (req, res) => {
+  res.render('editar');
+});
+
+app.get('/crear', (req, res) => {
+  res.render('crear');
 });
 
 app.listen(3000, () => {
