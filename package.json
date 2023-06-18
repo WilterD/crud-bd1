@@ -2,10 +2,11 @@
   "name": "crud",
   "version": "1.0.0",
   "description": "crud",
-  "main": "/src/index.js",
+  "main": "/src/index.mjs",
+  "type": "module",
   "scripts": {
     "test": "npm start",
-    "start": "node src/index.js"
+    "start": "node src/index.mjs"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   "author": "wilterd",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.18.2"
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "ejs-loader": "^0.5.0"
   }
 }
