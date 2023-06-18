@@ -1,0 +1,21 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https"
+  },
+  "keywords": [
+    "proyecto"
+  ],
+  "author": "wilterd",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
